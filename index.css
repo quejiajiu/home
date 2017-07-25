@@ -14,7 +14,7 @@ main{background: url(bk3.png) no-repeat;background-size: 100% 100%;}
 .content{max-width: 1000px;margin: 0 auto;zoom:1;}
 .content:after{visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
 .content .main{width: 70%;min-height: 500px; float: left;margin-top:10px;line-height: 30px;padding: 20px;font-size: 16px;position: relative; background: url(bk2.png) repeat;color: #404040;}
-.content .main:after{content: url(ll.png);position: absolute;left: -50px;top: 200px;opacity: 0.8;}
+.content .main:before{content: url(ll.png);position: absolute;left: -50px;top: 200px;opacity: 0.8;}
 .content .sidebar{width: 25%;float: right;}
 .sidebar .box{margin-top: 10px;padding: 10px 20px;line-height: 30px; background: url(bk2.png) repeat;color: #404040;}
 .sidebar .box .tit,.content .main .tit{font-size: 20px;color: #a59b83;text-align: center;}
